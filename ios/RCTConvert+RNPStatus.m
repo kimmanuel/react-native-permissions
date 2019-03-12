@@ -11,6 +11,6 @@
 @implementation RCTConvert (RNPStatus)
 
 RCT_ENUM_CONVERTER(RNPType, (@{ @"location" : @(RNPTypeLocation),
-                                RNPTypeUnknown, integerValue)
-
+                                }),
+                   RNPTypeUnknown, integerValue)
 @end
